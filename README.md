@@ -14,9 +14,8 @@ Summary: Provides p-values in type I, II or III anova and summary tables for lme
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-lmertest-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-lmertest-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-lmertest-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-lmertest-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-lmertest-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-lmertest-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-lmertest-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-lmertest-feedstock)
 
 Current release info
 ====================
