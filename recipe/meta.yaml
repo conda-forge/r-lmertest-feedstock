@@ -1,4 +1,4 @@
-{% set version = '3.1-0' %}
+{% set version = "3.1-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lmerTest_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lmerTest/lmerTest_{{ version }}.tar.gz
-  sha256: 2bdd4e8c1b9f88653dd39e5ee919878bb45bac857515130946cb17d52b437fda
+  sha256: 520ef83e9a7c58e3c5b7175fbda902b747b2e01c24b53714ede81a6a87de5b64
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
