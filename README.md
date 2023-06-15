@@ -1,11 +1,11 @@
-About r-lmertest
-================
+About r-lmertest-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lmertest-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/runehaubo/lmerTestR
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lmertest-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides p-values in type I, II or III anova and summary tables for lmer model fits (cf. lme4) via Satterthwaite's degrees of freedom method. A Kenward-Roger method is also available via the pbkrtest package. Model selection methods include step, drop1 and anova-like tables for random effects (ranova). Methods for Least-Square means (LS-means) and tests of linear contrasts of fixed effects are also available.
 
