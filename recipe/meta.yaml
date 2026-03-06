@@ -1,4 +1,4 @@
-{% set version = "3.2-0" %}
+{% set version = "3.2-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lmerTest_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lmerTest/lmerTest_{{ version }}.tar.gz
-  sha256: c068c1cbd8debda6ca5f90875c59a5cfe1b58d04e9e04054b6b9321679972c83
+  sha256: a0c5e6958940824fe09fc595383548e65ff08d3e363f4940e84a51084c025968
 
 build:
   number: 0
@@ -42,8 +42,8 @@ test:
 about:
   home: https://github.com/runehaubo/lmerTestR
   license: GPL (>= 2)
-  summary: Provides p-values in type I, II or III anova and summary tables for lmer model fits (cf. lme4) via Satterthwaite's degrees of freedom method. A Kenward-Roger method is also available via the pbkrtest package. Model selection methods include step, drop1 and anova-like tables for random effects (ranova). Methods
-    for Least-Square means (LS-means) and tests of linear contrasts of fixed effects are also available.
+  summary: Provides p-values in type I, II or III anova and summary tables for lmer model fits (cf. lme4) via Satterthwaite's degrees of freedom method. A Kenward-Roger method is also available via the pbkrtest package. Model selection methods include step, drop1 and anova-like tables for random effects (ranova). 
+    Methods for Least-Square means (LS-means) and tests of linear contrasts of fixed effects are also available.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
